@@ -1,0 +1,10 @@
+2025-11-18T14:53:34 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T14:53:36 - Pre-Execute: cmd=OK; CommandTextLength=306; conn=Open; connCSLen=113
+2025-11-18T14:58:00 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T15:08:16 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T15:13:41 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T15:19:10 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T15:19:12 - Pre-Execute: cmd=OK; CommandTextLength=306; conn=Open; connCSLen=113
+2025-11-18T15:34:06 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-18T15:34:08 - Pre-Execute: cmd=OK; CommandTextLength=306; conn=Open; connCSLen=113
+2025-11-18T15:48:03 - TestDatabase open: conn=Open; connCSLen=113
