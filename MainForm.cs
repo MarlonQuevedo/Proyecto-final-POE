@@ -8,7 +8,6 @@ namespace CineApp
 {
     public class MainForm : Form
     {
-        ComboBox cboFunciones;
         Button btnAsientos;
         Button btnPeliculas;
         Button btnCliente;
@@ -20,19 +19,19 @@ namespace CineApp
             Width = 600; Height = 150;
             StartPosition = FormStartPosition.CenterScreen;
 
-            cboFunciones = new ComboBox{Left=20,Top=20,Width=540,DropDownStyle=ComboBoxStyle.DropDownList};
-            btnAsientos = new Button{Left=20,Top=60,Width=150,Height=30,Text="Ver asientos (Admin)"};
+            btnAsientos = new Button{Left=20,Top=20,Width=150,Height=30,Text="Ver asientos (Admin)"};
             btnAsientos.Click += BtnAsientos_Click;
-            btnPeliculas = new Button{Left=190,Top=60,Width=150,Height=30,Text="Gestionar Películas"};
+            btnPeliculas = new Button{Left=190,Top=20,Width=150,Height=30,Text="Gestionar Películas"};
             btnPeliculas.Click += BtnPeliculas_Click;
-            btnCliente = new Button{Left=360,Top=60,Width=200,Height=30,Text="Abrir Cliente (Ver Películas)"};
+            btnCliente = new Button{Left=360,Top=20,Width=200,Height=30,Text="Abrir Cliente (Ver Películas)"};
             btnCliente.Click += BtnCliente_Click;
 
-            Controls.Add(cboFunciones);
             Controls.Add(btnAsientos);
             Controls.Add(btnPeliculas);
             Controls.Add(btnCliente);
             Load += MainForm_Load;
+            // Apply consistent UI theme
+            UITheme.Apply(this);
         }
 
         void MainForm_Load(object s, EventArgs e)
@@ -98,9 +97,7 @@ namespace CineApp
                         }
                     }
                 }
-                cboFunciones.DataSource = funciones;
-                cboFunciones.DisplayMember = nameof(FuncionInfo.Display);
-                cboFunciones.ValueMember = nameof(FuncionInfo.FuncionId);
+                // functions loaded into memory; UI has no dropdown
             }
             catch (Exception ex)
             {
@@ -114,7 +111,7 @@ namespace CineApp
 
                 // Mostrar información breve al usuario y pedir revisar el log
                 MessageBox.Show("Error al cargar funciones: " + ex.Message + "\nRevise error_log.txt en el directorio de la aplicación para más detalles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                cboFunciones.DataSource = new List<FuncionInfo>();
+                // nothing to display when load fails
                 try { btnAsientos.Enabled = false; } catch { }
                 try { btnPeliculas.Enabled = false; } catch { }
                 try { btnCliente.Enabled = false; } catch { }
@@ -123,8 +120,12 @@ namespace CineApp
 
         void BtnAsientos_Click(object s, EventArgs e)
         {
-            if(cboFunciones.SelectedItem is FuncionInfo f)
-                using(var frm=new SeatsForm(f.FuncionId,f.Display,true)){frm.ShowDialog(this);} 
+            // Use the first loaded function (read-only) to open the seats view (admin mode => no purchase)
+            if (funciones != null && funciones.Count > 0)
+            {
+                var f = funciones[0];
+                using (var frm = new SeatsForm(f.FuncionId, f.Display, false)) { frm.ShowDialog(this); }
+            }
         }
 
         void BtnPeliculas_Click(object s, EventArgs e)

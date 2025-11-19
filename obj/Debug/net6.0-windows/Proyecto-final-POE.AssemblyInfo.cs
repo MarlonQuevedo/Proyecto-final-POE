@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Proyecto-final-POE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cf53bb188106097d2a05b4a38a7cbc724b0d3ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+822fa43e657b58850b2e2056ac22fb81f9424b85")]
 [assembly: System.Reflection.AssemblyProductAttribute("Proyecto-final-POE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Proyecto-final-POE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

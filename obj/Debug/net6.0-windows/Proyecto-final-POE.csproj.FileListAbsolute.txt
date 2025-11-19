@@ -25,3 +25,30 @@ C:\Users\lazar\OneDrive\Escritorio\Desarrollo de Software\POE\Proyecto-final-POE
 C:\Users\lazar\OneDrive\Escritorio\Desarrollo de Software\POE\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
 C:\Users\lazar\OneDrive\Escritorio\Desarrollo de Software\POE\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\lazar\OneDrive\Escritorio\Desarrollo de Software\POE\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\App.config
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.exe
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.dll.config
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.deps.json
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.runtimeconfig.json
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\Proyecto-final-POE.pdb
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.csproj.AssemblyReference.cache
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.AssemblyInfoInputs.cache
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.AssemblyInfo.cs
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.csproj.CoreCompileInputs.cache
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.sourcelink.json
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto.F6ECF188.Up2Date
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\refint\Proyecto-final-POE.dll
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.pdb
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\Proyecto-final-POE.genruntimeconfig.cache
+c:\Users\aassu\OneDrive\Escritorio\Lab-III-POE-Quevedo\Proyecto-final-POE\obj\Debug\net6.0-windows\ref\Proyecto-final-POE.dll

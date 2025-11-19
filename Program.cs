@@ -46,11 +46,7 @@ namespace CineApp
                         "Error BD", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                     if (ask == DialogResult.No) return;
                 }
-                else
-                {
-                    // Inform the user of successful check
-                    MessageBox.Show(info, "Comprobación BD", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                // If DB check succeeded, continue silently (no splash/notification)
 
                 if (roleForm.SelectedRole == RoleSelectionForm.Role.Admin)
                 {

@@ -33,6 +33,8 @@ namespace CineApp
 
             Controls.Add(dgvFunciones); Controls.Add(btnVerAsientos); Controls.Add(btnBack);
             Load += ClientForm_Load;
+            // Apply consistent UI theme
+            UITheme.Apply(this);
         }
 
         void ClientForm_Load(object s, EventArgs e)
@@ -81,7 +83,7 @@ namespace CineApp
             if (dgvFunciones.CurrentRow == null) return;
             var id = (int)dgvFunciones.CurrentRow.Cells["FuncionId"].Value;
             var display = (string)dgvFunciones.CurrentRow.Cells["Pelicula"].Value + " - " + (string)dgvFunciones.CurrentRow.Cells["Sala"].Value + " - " + dgvFunciones.CurrentRow.Cells["FechaHoraInicio"].Value.ToString();
-            using (var frm = new SeatsForm(id, display, false)) { frm.ShowDialog(this); }
+            using (var frm = new SeatsForm(id, display, true)) { frm.ShowDialog(this); }
         }
     }
 }
