@@ -12,7 +12,6 @@ namespace CineApp
 			var entry = ConfigurationManager.ConnectionStrings["CineDb"] ?? ConfigurationManager.ConnectionStrings["Cine"];
 			if (entry == null || string.IsNullOrWhiteSpace(entry.ConnectionString))
 			{
-				// Build a helpful message listing available connection string names (defensive)
 				string available;
 				try
 				{

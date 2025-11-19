@@ -85,7 +85,6 @@ namespace CineApp
                         }
                         catch (Exception ex2)
                         {
-                            // Log detailed state and rethrow to be handled by outer catch
                             try
                             {
                                 var logPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "error_log.txt");
@@ -111,7 +110,6 @@ namespace CineApp
 
                 // Mostrar información breve al usuario y pedir revisar el log
                 MessageBox.Show("Error al cargar funciones: " + ex.Message + "\nRevise error_log.txt en el directorio de la aplicación para más detalles.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                // nothing to display when load fails
                 try { btnAsientos.Enabled = false; } catch { }
                 try { btnPeliculas.Enabled = false; } catch { }
                 try { btnCliente.Enabled = false; } catch { }

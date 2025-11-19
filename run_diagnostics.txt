@@ -92,3 +92,7 @@ SeatsForm: Cargar start - FuncionId=1
 SeatsForm: Cargar start - FuncionId=4
 SeatsForm: Cargar start - FuncionId=2
 SeatsForm: Cargar start - FuncionId=5
+2025-11-19T15:18:07 - TestDatabase open: conn=Open; connCSLen=113
+SeatsForm: Cargar start - FuncionId=5
+2025-11-19T15:19:05 - TestDatabase open: conn=Open; connCSLen=113
+2025-11-19T15:19:05 - Pre-Execute: cmd=OK; CommandTextLength=310; conn=Open; connCSLen=113

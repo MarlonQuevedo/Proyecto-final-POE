@@ -108,3 +108,6 @@ SeatsForm: Cargar start - FuncionId=1
 SeatsForm: Cargar start - FuncionId=4
 SeatsForm: Cargar start - FuncionId=2
 SeatsForm: Cargar start - FuncionId=5
+SeatsForm: Cargar start - FuncionId=5
+SeatsForm: Cargar start - FuncionId=5
+SeatsForm: Cargar start - FuncionId=5

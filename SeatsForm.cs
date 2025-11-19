@@ -136,8 +136,7 @@ namespace CineApp
             btnBack.Click += (s, e) => { DialogResult = DialogResult.Cancel; };
             btnComprar.Click += BtnComprar_Click;
 
-            // Add controls in an order that makes docking layout predictable:
-            // 1) label at top, 2) main panel (docked fill), 3) optional dgv, 4) bottomPanel (docked bottom)
+            // Add controls in an order that makes docking layout predictable
             Controls.Add(lblInfo);
             // ensure comprar is visible and enabled only when purchases are allowed
             btnComprar.Visible = true;
@@ -158,7 +157,6 @@ namespace CineApp
             Controls.Add(sep);
             Controls.Add(dgvAsientos);
             Controls.Add(bottomPanel);
-            // Ensure bottom panel sits above the main panel so buttons are always visible
             try { bottomPanel.BringToFront(); } catch { }
             Load+=SeatsForm_Load;
         }
@@ -166,7 +164,7 @@ namespace CineApp
     void SeatsForm_Load(object s,EventArgs e){Cargar();}
 
         void Cargar(){
-            // Preserve `seleccionados` so user selections remain across UI refreshes
+            // Preserve user selections across UI refreshes
             panel.Controls.Clear(); seatButtons.Clear();
             try
             {
@@ -212,7 +210,7 @@ ORDER BY a.Codigo";
                 {
                     try { var msg = "SeatsForm: no seats returned from DB - attempting to auto-generate seats\n"; File.AppendAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "run_diagnostics.txt"), msg); File.AppendAllText(Path.Combine(Environment.CurrentDirectory, "run_diagnostics.txt"), msg); } catch { }
 
-                    // Try to determine SalaId and Capacidad for this Funcion and call sp_GenerarAsientosPorSala
+                    // Attempt to determine SalaId/Capacidad and call sp_GenerarAsientosPorSala
                     try
                     {
                         using (var c2 = Db.NewConnection())
@@ -318,7 +316,6 @@ ORDER BY a.Codigo", c2))
                     }
                     else if (i >= code.Length)
                     {
-                        // no trailing number, whole code is row key
                         rowKey = code;
                         col = 0;
                     }
@@ -443,7 +440,7 @@ ORDER BY a.Codigo", c2))
             int id=(int)b.Tag;
             // Allow selection toggle in all modes (we want same behavior in client and admin)
 
-            // Toggle selection: keep state until the same seat is clicked again
+            // Toggle selection
             if (seleccionados.Contains(id))
             {
                 seleccionados.Remove(id);

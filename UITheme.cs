@@ -17,7 +17,6 @@ namespace CineApp
     public const int SeatButtonWidth = 68;
     public const int SeatButtonHeight = 50;
 
-        // Apply a lightweight, safe theme to a form and its immediate controls
         public static void Apply(Form f)
         {
             if (f == null) return;
@@ -49,7 +48,7 @@ namespace CineApp
                 }
                 else
                 {
-                    // leave label and other backgrounds transparent where appropriate
+                    // Keep label/other backgrounds as-is where appropriate
                 }
 
                 if (c is Button b)
